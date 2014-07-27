@@ -19,6 +19,8 @@
 		E29072E3198433B800B7DE5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29072CB198433B800B7DE5F /* UIKit.framework */; };
 		E29072EB198433B800B7DE5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E29072E9198433B800B7DE5F /* InfoPlist.strings */; };
 		E29072ED198433B800B7DE5F /* Temperature_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E29072EC198433B800B7DE5F /* Temperature_ConverterTests.m */; };
+		E29072F9198433F100B7DE5F /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29072F7198433F100B7DE5F /* TempViewController.m */; };
+		E29072FA198433F100B7DE5F /* TempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29072F8198433F100B7DE5F /* TempViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E29072E8198433B800B7DE5F /* Temperature ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Temperature ConverterTests-Info.plist"; sourceTree = "<group>"; };
 		E29072EA198433B800B7DE5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E29072EC198433B800B7DE5F /* Temperature_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Temperature_ConverterTests.m; sourceTree = "<group>"; };
+		E29072F6198433F100B7DE5F /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		E29072F7198433F100B7DE5F /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		E29072F8198433F100B7DE5F /* TempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				E29072D7198433B800B7DE5F /* AppDelegate.m */,
 				E29072D9198433B800B7DE5F /* Images.xcassets */,
 				E29072CE198433B800B7DE5F /* Supporting Files */,
+				E29072F6198433F100B7DE5F /* TempViewController.h */,
+				E29072F7198433F100B7DE5F /* TempViewController.m */,
+				E29072F8198433F100B7DE5F /* TempViewController.xib */,
 			);
 			path = "Temperature Converter";
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29072FA198433F100B7DE5F /* TempViewController.xib in Resources */,
 				E29072D2198433B800B7DE5F /* InfoPlist.strings in Resources */,
 				E29072DA198433B800B7DE5F /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			files = (
 				E29072D8198433B800B7DE5F /* AppDelegate.m in Sources */,
 				E29072D4198433B800B7DE5F /* main.m in Sources */,
+				E29072F9198433F100B7DE5F /* TempViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +375,7 @@
 				GCC_PREFIX_HEADER = "Temperature Converter/Temperature Converter-Prefix.pch";
 				INFOPLIST_FILE = "Temperature Converter/Temperature Converter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -378,6 +389,7 @@
 				GCC_PREFIX_HEADER = "Temperature Converter/Temperature Converter-Prefix.pch";
 				INFOPLIST_FILE = "Temperature Converter/Temperature Converter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

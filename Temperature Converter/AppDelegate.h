@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TempViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
